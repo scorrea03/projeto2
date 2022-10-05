@@ -225,4 +225,7 @@ input[type="range"]::-webkit-slider-thumb {
 svg:hover  {
   fill: #19c9a3;
 }
-
+@media only screen and (max-device-width: 900px) {
+  .body { width:100%; }
+  .container {width: 100%;}
+  }
